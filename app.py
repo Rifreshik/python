@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.web_app_info import WebAppInfo
 import sqlite3
 
-bot = Bot("6229205380:AAHsVD8xmVXnOGIe87tb3xYFvk5eDpaBUTE")
+bot = Bot("")
 dp = Dispatcher(bot)
 
 conn = sqlite3.connect('database.db')
